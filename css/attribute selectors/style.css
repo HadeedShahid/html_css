@@ -1,0 +1,17 @@
+input[type = "text"]{
+    color: aqua;
+}
+input[type = "password"]{
+    color: blueviolet;
+}
+/* a[href = "https://amazon.com"]{
+    color: chartreuse;
+} */
+
+a[href *= "google"]{
+    color: red;
+}
+
+/* if you want to color e.g starting with https the use href ^= "https"  */
+
+/* if you want to color e.g ending with .com the use href $= "https"  */

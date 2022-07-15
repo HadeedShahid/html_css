@@ -1,0 +1,27 @@
+/* Universal selector */
+/**{                     
+    color: violet;
+}*/
+
+header{
+    background-color: #f0ebeb;
+}
+section.my-articles{
+    background-color: #f2e9e9;
+}
+header p{
+    color: blue;
+}
+li a{
+    color: chartreuse;
+}
+/* section.my-articles h2{
+    color: crimson;
+} */
+section.my-articles > h2{
+    color: crimson;
+}
+
+h2+p{
+    color:aqua;
+}

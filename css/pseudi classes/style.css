@@ -1,0 +1,25 @@
+/* link, visited,hover,active */
+a:hover{
+    color: aquamarine; 
+    /* change coloro n hover */
+}
+a:link{
+    color:orange
+    /* unvisited */
+}
+a:visited{
+    color: red;
+    /* visited */
+}
+a:active{
+    color:black
+    /* while clicked  */
+}
+input:focus{
+    padding:10px;
+    outline: none;
+    border: 2px solid red;
+}
+input:required{
+    color: brown;
+}

@@ -1,0 +1,4 @@
+use rem in case of font size
+for padding or margin use em (to cater for font size) but not compulsory
+for layouts use %
+border if this px will be enough
